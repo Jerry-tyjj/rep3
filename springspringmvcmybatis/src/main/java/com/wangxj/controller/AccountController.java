@@ -32,4 +32,8 @@ public class AccountController {
         modelAndView.addObject("accountList",accountList);
         return modelAndView;
     }
+
+    public void save(){
+        System.out.println("你好");
+    }
 }
